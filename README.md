@@ -1,5 +1,5 @@
 
-# Zeus Front
+# Zeus Frontend
 
 Este repositório é o frontend do projeto Zeus, uma aplicação desenvolvida com Next.js e Tailwind CSS para monitoramento, visualização e gestão de dados relacionados à coleção "racao". Permite consultar, visualizar e interagir com os dados de produtos e preços de forma moderna e responsiva.
 
