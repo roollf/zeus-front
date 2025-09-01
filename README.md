@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Zeus Front
 
-First, run the development server:
+Este repositório é o frontend do projeto Zeus, uma aplicação desenvolvida com Next.js e Tailwind CSS para monitoramento, visualização e gestão de dados relacionados à coleção "racao". Permite consultar, visualizar e interagir com os dados de produtos e preços de forma moderna e responsiva.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Funcionalidades
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Visualização de dados e produtos
+- Consulta de preços e histórico
+- Interface moderna, responsiva e otimizada
+- Componentes reutilizáveis (UI, tabelas, formulários, etc.)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Pré-requisitos
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Node.js](https://nodejs.org/) (recomendado: v18 ou superior)
+- [npm](https://www.npmjs.com/) (geralmente instalado junto com o Node.js)
 
-## Learn More
+## Como executar o projeto em modo de desenvolvimento
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone o repositório**
+	```bash
+	git clone <url-do-repositorio>
+	```
+	Acesse a pasta do projeto:
+	```bash
+	cd zeus-front
+	```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Instale as dependências**
+	```bash
+	npm install
+	```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. **Execute o projeto**
+	```bash
+	npm run dev
+	```
+	O aplicativo será iniciado em modo de desenvolvimento. Abra [http://localhost:3000](http://localhost:3000) no navegador para visualizar.
 
-## Deploy on Vercel
+4. **Alterações em tempo real**
+	Qualquer alteração nos arquivos do projeto será refletida automaticamente no navegador.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Scripts disponíveis
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- `npm run dev` - Inicia o servidor de desenvolvimento
+- `npm run build` - Gera uma versão de produção na pasta `.next`
+- `npm start` - Inicia o servidor em produção
+
+## Estrutura de pastas
+
+- `src/` - Código-fonte principal
+  - `app/` - Estrutura de rotas, páginas e layout
+  - `components/` - Componentes reutilizáveis (UI, tabelas, formulários, header, footer)
+  - `lib/` - Funções utilitárias
+- `public/` - Arquivos públicos e estáticos
+
+## Observações
+
+- Certifique-se de que o backend do sistema Zeus esteja rodando e acessível, se necessário para integração.
+- Este projeto utiliza [Next.js](https://nextjs.org/) e [Tailwind CSS](https://tailwindcss.com/) para estilização.
+
+---
+Projeto desenvolvido com [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
